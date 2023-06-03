@@ -1,9 +1,9 @@
 const express = require("express");
 const morgan = require("morgan");
-// const searchRouter = require("./routes/searchRouter");
-// const homePageRouter = require("./routes/homePageRouter");
-// const listingsRouter = require("./routes/listingsRouter");
-// const contactRouter = require("./routes/contactRouter");
+const searchRouter = require("./routes/searchRouter");
+const homePageRouter = require("./routes/homePageRouter");
+const listingsRouter = require("./routes/listingsRouter");
+const contactRouter = require("./routes/contactRouter");
 
 const hostname = "localhost";
 const port = 3000;
